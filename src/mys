@@ -1,0 +1,15 @@
+{
+   test
+   Memcheck:Leak
+   ...
+   obj:/usr/lib/dri/radeonsi_dri.so
+   ...
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   ...
+   fun:XextAddDisplay
+   ...
+}
+

@@ -73,6 +73,34 @@
 				<Z>0</Z>
 				<Angle>0</Angle>
 			</Decoration>
+			<Decoration>
+				<Type>SwordDeco</Type>
+				<X>-290</X>
+				<Y>19</Y>
+				<Z>0</Z>
+				<Angle>90</Angle>
+			</Decoration>
+			<Decoration>
+				<Type>Lance</Type>
+				<X>-305</X>
+				<Y>40</Y>
+				<Z>30</Z>
+				<Angle>8</Angle>
+			</Decoration>
+			<Decoration>
+				<Type>Lance</Type>
+				<X>-305</X>
+				<Y>40</Y>
+				<Z>15</Z>
+				<Angle>8</Angle>
+			</Decoration>
+			<Decoration>
+				<Type>SwordDeco</Type>
+				<X>-200</X>
+				<Y>11</Y>
+				<Z>200</Z>
+				<Angle>45</Angle>
+			</Decoration>
 	   	</Room>
 	   	<Room>
 	   		<MinX> -163 </MinX>
@@ -302,11 +330,39 @@
 			</Decoration>
 			<Decoration>
 				<Type>Box</Type>
-				<X>-405</X>
+				<X>-410</X>
 				<Y>-10</Y>
 				<Z>-400</Z>
 				<Angle>0</Angle>
 			</Decoration>
+			<!--<Decoration>
+				<Type>SwordDeco</Type>
+				<X>-403</X>
+				<Y>21</Y>
+				<Z>-400</Z>
+				<Angle>95</Angle>
+			</Decoration>-->
+			<Decoration>
+				<Type>SwordDeco</Type>
+				<X>-415</X>
+				<Y>21</Y>
+				<Z>-395</Z>
+				<Angle>-100</Angle>
+			</Decoration>
+			<Decoration>
+				<Type>Lance</Type>
+				<X>-164</X>
+				<Y>40</Y>
+				<Z>-453</Z>
+				<Angle>-8</Angle>
+			</Decoration>
+			<!--<Decoration>
+				<Type>Lance</Type>
+				<X>-164</X>
+				<Y>40</Y>
+				<Z>-460</Z>
+				<Angle>-8</Angle>
+			</Decoration>-->
 	   	</Room>
 	   	<Room>
 	   		<MinX> -160 </MinX>
@@ -334,6 +390,20 @@
 				<Y>40</Y>
 				<Z>-385</Z>
 				<Angle>0</Angle>
+			</Decoration>
+			<Decoration>
+				<Type>SwordDeco</Type>
+				<X>-100</X>
+				<Y>-7</Y>
+				<Z>-395</Z>
+				<Angle>45</Angle>
+			</Decoration>
+			<Decoration>
+				<Type>Lance</Type>
+				<X>146</X>
+				<Y>40</Y>
+				<Z>-650</Z>
+				<Angle>-8</Angle>
 			</Decoration>
 	   	</Room>
 		<Room>
@@ -384,6 +454,13 @@
 				<Z>-50</Z>
 				<Angle>0</Angle>
 			</Decoration>
+			<Decoration>
+				<Type>SwordDeco</Type>
+				<X>-127</X>
+				<Y>19</Y>
+				<Z>-90</Z>
+				<Angle>45</Angle>
+			</Decoration>
 	   	</Room>
 		<Room>
 	   		<MinX> -430 </MinX>
@@ -431,6 +508,20 @@
 				<Z>-40</Z>
 				<Angle>0</Angle>
 			</Decoration>
+			<Decoration>
+				<Type>Lance</Type>
+				<X>-165</X>
+				<Y>40</Y>
+				<Z>-80</Z>
+				<Angle>-8</Angle>
+			</Decoration>
+			<!--<Decoration>
+				<Type>Lance</Type>
+				<X>-165</X>
+				<Y>40</Y>
+				<Z>-85</Z>
+				<Angle>-8</Angle>
+			</Decoration>-->
 	   	</Room>
 		<Room>
 	   		<MinX> -430 </MinX>
@@ -493,6 +584,13 @@
 				<Z>310</Z>
 				<Angle>0</Angle>
 			</Decoration>
+			<!--<Decoration>
+				<Type>SwordDeco</Type>
+				<X>-137</X>
+				<Y>-7</Y>
+				<Z>85</Z>
+				<Angle>45</Angle>
+			</Decoration>-->
 	   	</Room>
 	   	<Room>
 	   		<MinX> -410 </MinX>
@@ -691,6 +789,13 @@
 				<Z>-20</Z>
 				<Angle>0</Angle>
 			</Decoration>
+			<Decoration>
+				<Type>SwordDeco</Type>
+				<X>133</X>
+				<Y>32</Y>
+				<Z>-131</Z>
+				<Angle>140</Angle>
+			</Decoration>
 	   		<Trigger>
 	   			<Object>Trigger_Camera</Object>
 	   			<X> 75 </X>
@@ -743,6 +848,13 @@
 				<Z>310</Z>
 				<Angle>0</Angle>
 			</Decoration>
+			<Decoration>
+				<Type>SwordDeco</Type>
+				<X>-878</X>
+				<Y>4</Y>
+				<Z>278</Z>
+				<Angle>140</Angle>
+			</Decoration>
 	   		<Trigger>
 	   			<Object>Trigger_Camera</Object>
 	   			<X> -703 </X>
@@ -753,7 +865,7 @@
    				<Object>Chest</Object>	
    				<X> -703 </X>
    				<Y> 3 </Y>
-   				<Z> 310 </Z>
+   				<Z> 320 </Z>
    				<Type> CHEST_BOSS_KEY_ENTITY </Type>
 				<Value>1</Value>
 	   		</Interactible>
@@ -807,7 +919,7 @@
 	   		</Interactible>
 	   		<Platform>
 	   			<Object>Platform</Object>
-	   			<X> -350 </X>
+	   			<X> -210 </X>
 	   			<Y> 0 </Y>
 	   			<Z> 80 </Z>
 	   			<Path>
@@ -831,6 +943,13 @@
 				<Y>72</Y>
 				<Z>346</Z>
 				<Angle>0</Angle>
+			</Decoration>
+			<Decoration>
+				<Type>Lance</Type>
+				<X>298</X>
+				<Y>52</Y>
+				<Z>365</Z>
+				<Angle>8</Angle>
 			</Decoration>
 	   		<Trigger>
 	   			<Object>Trigger_Enemies</Object>
@@ -865,6 +984,27 @@
 				<Z>-50</Z>
 				<Angle>0</Angle>
 			</Decoration>
+			<Decoration>
+				<Type>Lance</Type>
+				<X>298</X>
+				<Y>52</Y>
+				<Z>-315</Z>
+				<Angle>8</Angle>
+			</Decoration>
+			<Decoration>
+				<Type>Lance</Type>
+				<X>298</X>
+				<Y>52</Y>
+				<Z>-320</Z>
+				<Angle>8</Angle>
+			</Decoration>
+			<Trigger>
+	   			<Object>Trigger_Level</Object>
+	   			<X> 451 </X>
+	   			<Y> -406 </Y>
+	   			<Width> 50 </Width>
+	   			<Level> 2 </Level>
+	   		</Trigger>
 	   		<Trigger>
 	   			<Object>Trigger_Camera</Object>
 	   			<X> 450 </X>
@@ -879,13 +1019,6 @@
    				<Type> CHEST_FOOD_ICE_ENTITY </Type>
 				<Value>2</Value>
 	   		</Interactible>
-	   	</Room>
-	   	<Room>
-	   		<MinX> 617 </MinX>
-	   		<MinZ> -257 </MinZ>
-	   		<MaxX> 62 </MaxX>
-	   		<MaxZ> 57 </MaxZ>
-	   		<Type> 1 </Type>
 	   	</Room>
 	   	<Room>
 	   		<MinX> 2400 </MinX>
@@ -964,18 +1097,6 @@
 			<Z>150</Z>
 			<Type>1</Type>
 		</Enemy>
-	   	<!--<Enemy>
-	   		<X>-250</X>
-	   		<Y>24</Y>
-	   		<Z>-250</Z>
-	   		<Type>1</Type>
-	   	</Enemy>
-	   	<Enemy>
-	   		<X>-300</X>
-	   		<Y>24</Y>
-	   		<Z>-250</Z>
-	   		<Type>1</Type>
-	   	</Enemy>-->
 	   	<Enemy>
 	   		<X> -703 </X>
 	   		<Y>24</Y>
