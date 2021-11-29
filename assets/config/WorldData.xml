@@ -1,0 +1,1111 @@
+<?xml version="1.0" ?>
+<Frostyland>
+	<Level1>
+		<NRooms>8</NRooms>
+		<NDB>0</NDB>
+		<NP>0</NP>
+		<MediaY>-13</MediaY>
+		<Room>
+	   		<MinX> -308 </MinX>
+	   		<MinZ> 270 </MinZ>
+	   		<MaxX> 60 </MaxX>
+	   		<MaxZ> 200 </MaxZ>
+	   		<Type> 1 </Type>
+	   		<Trigger>
+	   			<Object>Trigger_Level</Object>
+	   			<X> -300 </X>
+	   			<Y> 350 </Y>
+	   			<Width> 60 </Width>
+	   			<Level> 2 </Level>
+	   		</Trigger>
+	   	</Room>
+		<Room>
+	   		<MinX> -308 </MinX>
+	   		<MinZ> -89 </MinZ>
+	   		<MaxX> 145 </MaxX>
+	   		<MaxZ> 359 </MaxZ>
+	   		<Type> 1 </Type>
+			<Trigger>
+	   			<Object>Trigger_Camera</Object>
+	   			<X> -300 </X>
+	   			<Y> -75 </Y>
+	   			<Width> 145 </Width>
+	   		</Trigger>
+	   		<Decoration>
+				<Type>Table</Type>
+				<X>-220</X>
+				<Y>-20</Y>
+				<Z>210</Z>
+				<Angle>0</Angle>
+			</Decoration>
+	   		<Decoration>
+				<Type>Chair</Type>
+				<X>-210</X>
+				<Y>-20</Y>
+				<Z>240</Z>
+				<Angle>0</Angle>
+			</Decoration>
+			<Decoration>
+				<Type>PS</Type>
+				<X>-210</X>
+				<Y>24</Y>
+				<Z>240</Z>
+				<Angle>0</Angle>
+			</Decoration>
+	   		<Decoration>
+				<Type>Torch</Type>
+				<X>-210</X>
+				<Y>50</Y>
+				<Z>260</Z>
+				<Angle>0</Angle>
+			</Decoration>
+			<Decoration>
+				<Type>Box</Type>
+				<X>-280</X>
+				<Y>-10</Y>
+				<Z>-40</Z>
+				<Angle>0</Angle>
+			</Decoration>
+			<Decoration>
+				<Type>Barrel</Type>
+				<X>-290</X>
+				<Y>-10</Y>
+				<Z>0</Z>
+				<Angle>0</Angle>
+			</Decoration>
+	   	</Room>
+	   	<Room>
+	   		<MinX> -163 </MinX>
+	   		<MinZ> -89 </MinZ>
+	   		<MaxX> 541 </MaxX>
+	   		<MaxZ> 160 </MaxZ>
+	   		<Type> 1 </Type>
+			<Trigger>
+	   			<Object>Trigger_Camera</Object>
+	   			<X> 106 </X>
+	   			<Y> -80 </Y>
+	   			<Width> 536 </Width>
+	   		</Trigger>
+	   		<Decoration>
+				<Type>Barrel</Type>
+				<X>-140</X>
+				<Y>-10</Y>
+				<Z>-40</Z>
+				<Angle>0</Angle>
+			</Decoration>
+			<Decoration>
+				<Type>Torch</Type>
+				<X>11</X>
+				<Y>20</Y>
+				<Z>58</Z>
+				<Angle>0</Angle>
+			</Decoration>
+			<Decoration>
+				<Type>Torch</Type>
+				<X>205</X>
+				<Y>20</Y>
+				<Z>58</Z>
+				<Angle>0</Angle>
+			</Decoration>
+	   	</Room>
+	   	<Room>
+	   		<MinX> -163 </MinX>
+	   		<MinZ> 64 </MinZ>
+	   		<MaxX> 136 </MaxX>
+	   		<MaxZ> 175 </MaxZ>
+	   		<Type> 1 </Type>
+	   		<Decoration>
+				<Type>Bed</Type>
+				<X>-120</X>
+				<Y>-15</Y>
+				<Z>230</Z>
+				<Angle>180</Angle>
+			</Decoration>
+			<Decoration>
+			<Type>Chain</Type>
+				<X>-40</X>
+				<Y>30</Y>
+				<Z>260</Z>
+				<Angle>0</Angle>
+			</Decoration>
+	   	</Room>
+	   	<Room>
+	   		<MinX> -13 </MinX>
+	   		<MinZ> 64 </MinZ>
+	   		<MaxX> 220 </MaxX>
+	   		<MaxZ> 175 </MaxZ>
+	   		<Type> 1 </Type>
+	   		<Decoration>
+				<Type>Bed</Type>
+				<X>160</X>
+				<Y>-15</Y>
+				<Z>230</Z>
+				<Angle>0</Angle>
+			</Decoration>
+	   	</Room>
+	   	<Room>
+	   		<MinX> 203 </MinX>
+	   		<MinZ> 64 </MinZ>
+	   		<MaxX> 165 </MaxX>
+	   		<MaxZ> 175 </MaxZ>
+	   		<Type> 1 </Type>
+			<Interactible>
+   				<Object>Chest</Object>	
+   				<X> 260 </X>
+   				<Y> -13 </Y>
+   				<Z> 200 </Z>
+   				<Type> CHEST_LEVEL_KEY_ENTITY </Type>
+				<Value>1</Value>
+	   		</Interactible>
+	   	</Room>
+	   	<Room>
+	   		<MinX> 378 </MinX>
+	   		<MinZ> -89 </MinZ>
+	   		<MaxX> 150 </MaxX>
+	   		<MaxZ> 335 </MaxZ>
+	   		<Type> 1 </Type>
+			<Trigger>
+	   			<Object>Trigger_Dialogo</Object>
+	   			<X> 370 </X>
+	   			<Y> -50 </Y>
+	   			<Width> 150 </Width>
+				<Value> 0 </Value>
+	   		</Trigger>
+	   		<Interactible>
+   				<Object>Chest</Object>	
+   				<X> 460 </X>
+   				<Y> -13 </Y>
+   				<Z> 200 </Z>
+   				<Type> CHEST_JAIL_KEY_ENTITY </Type>
+				<Value>1</Value>
+	   		</Interactible>
+	   		<Decoration>
+				<Type>Chain</Type>
+				<X>515</X>
+				<Y>30</Y>
+				<Z>150</Z>
+				<Angle>-90</Angle>
+			</Decoration>
+			<Decoration>
+				<Type>Chain</Type>
+				<X>515</X>
+				<Y>30</Y>
+				<Z>0</Z>
+				<Angle>-90</Angle>
+			</Decoration>
+			<Decoration>
+				<Type>Torch</Type>
+				<X>450</X>
+				<Y>50</Y>
+				<Z>260</Z>
+				<Angle>0</Angle>
+			</Decoration>
+	   	</Room>
+	   	<Room>
+	   		<MinX> 2400 </MinX>
+	   		<MinZ> 2400 </MinZ>
+	   		<MaxX> 200 </MaxX>
+	   		<MaxZ> 200 </MaxZ>
+	   		<Type> 1 </Type>
+	   		<Trigger>
+	   			<Object>Trigger_Level</Object>
+	   			<X> 2400 </X>
+	   			<Y> 2400 </Y>
+	   			<Width> 200 </Width>
+	   			<Level> 2 </Level>
+	   		</Trigger>
+	   	</Room>
+		<Door>
+	   		<X>380</X>
+	   		<Z>5</Z>
+	   		<Down>0</Down>
+	   		<Closed>1</Closed>
+	   		<Type>JAIL_DOOR_ENTITY</Type>
+	   		<Index1>2</Index1>
+	   		<Index2>6</Index2>
+	   	</Door>
+		<Door>
+	   		<X>-122</X>
+	   		<Z>65</Z>
+	   		<Down>1</Down>
+	   		<Closed>1</Closed>
+	   		<Type>JAIL_DOOR_ENTITY</Type>
+	   		<Index1>3</Index1>
+	   		<Index2>2</Index2>
+	   	</Door>
+		<Door>
+	   		<X>-163</X>
+	   		<Z>1</Z>
+	   		<Down>0</Down>
+	   		<Closed>1</Closed>
+	   		<Type>LEVEL_DOOR_ENTITY</Type>
+	   		<Index1>1</Index1>
+	   		<Index2>2</Index2>
+	   	</Door>
+		<Villager>
+	   		<X>60</X>
+	   		<Y>1</Y>
+	   		<Z>187</Z>
+	   		<Type>0</Type>
+			<Dialog>0</Dialog>
+			<MaxDia>0</MaxDia>
+	   	</Villager>
+		<Villager>
+	   		<X>-60</X>
+	   		<Y>1</Y>
+	   		<Z>86</Z>
+			<Type>1</Type>
+			<Dialog>17</Dialog>
+			<MaxDia>2</MaxDia>
+			<Reward>300</Reward>
+	   	</Villager>
+	</Level1>
+	<Level2>
+		<NRooms>8</NRooms>
+		<NDB>0</NDB>
+		<NP>0</NP>
+		<MediaY>-10</MediaY>
+	   	<Room>
+	   		<MinX> -415 </MinX>
+	   		<MinZ> -685 </MinZ>
+	   		<MaxX> 270 </MaxX>
+	   		<MaxZ> 310 </MaxZ>
+	   		<Type> 1 </Type>
+			<Trigger>
+	   			<Object>Trigger_Level</Object>
+	   			<X> -415 </X>
+	   			<Y> -685 </Y>
+	   			<Width> 50 </Width>
+	   			<Level> 1 </Level>
+	   		</Trigger>
+			<Interactible>
+   				<Object>Chest</Object>	
+   				<X> -300 </X>
+   				<Y> -10 </Y>
+   				<Z> -440 </Z>
+   				<Type> CHEST_SWORD_ENTITY </Type>
+				<Value>1</Value>
+	   		</Interactible>
+	   		<Decoration>
+				<Type>Barrel</Type>
+				<X>-190</X>
+				<Y>-10</Y>
+				<Z>-390</Z>
+				<Angle>0</Angle>
+			</Decoration>
+			<Decoration>
+				<Type>Barrel</Type>
+				<X>-180</X>
+				<Y>-10</Y>
+				<Z>-420</Z>
+				<Angle>0</Angle>
+			</Decoration>
+			<Decoration>
+				<Type>Box</Type>
+				<X>-405</X>
+				<Y>-10</Y>
+				<Z>-400</Z>
+				<Angle>0</Angle>
+			</Decoration>
+	   	</Room>
+	   	<Room>
+	   		<MinX> -160 </MinX>
+	   		<MinZ> -700 </MinZ>
+	   		<MaxX> 300 </MaxX>
+	   		<MaxZ> 350 </MaxZ>
+	   		<Type> 1 </Type>
+			<Trigger>
+	   			<Object>Trigger_NEnemies</Object>
+	   			<X> 0 </X>
+	   			<Y> 0 </Y>
+	   			<Width> 0 </Width>
+	   			<Value>6</Value>
+	   		</Trigger>
+	   		<Decoration>
+				<Type>Box</Type>
+				<X>-130</X>
+				<Y>-10</Y>
+				<Z>-400</Z>
+				<Angle>0</Angle>
+			</Decoration>
+			<Decoration>
+				<Type>Torch</Type>
+				<X>80</X>
+				<Y>40</Y>
+				<Z>-385</Z>
+				<Angle>0</Angle>
+			</Decoration>
+	   	</Room>
+		<Room>
+	   		<MinX> -160 </MinX>
+	   		<MinZ> -360 </MinZ>
+	   		<MaxX> 300 </MaxX>
+	   		<MaxZ> 335 </MaxZ>
+	   		<Type> 1 </Type>
+			<Interactible>
+   				<Object>Chest</Object>	
+   				<X> -10 </X>
+   				<Y> -10 </Y>
+   				<Z> -170 </Z>
+   				<Type> CHEST_FOOD_MEAT_ENTITY </Type>
+				<Value>1</Value>
+	   		</Interactible>
+			<Trigger>
+	   			<Object>Trigger_Camera</Object>
+	   			<X> -10 </X>
+	   			<Y> -340 </Y>
+	   			<Width> 150 </Width>
+	   		</Trigger>
+	   		<Decoration>
+				<Type>Box</Type>
+				<X>-130</X>
+				<Y>-10</Y>
+				<Z>-50</Z>
+				<Angle>0</Angle>
+			</Decoration>
+			<Decoration>
+				<Type>Torch</Type>
+				<X>80</X>
+				<Y>40</Y>
+				<Z>-40</Z>
+				<Angle>0</Angle>
+			</Decoration>
+			<Decoration>
+				<Type>Barrel</Type>
+				<X>-130</X>
+				<Y>-10</Y>
+				<Z>-90</Z>
+				<Angle>0</Angle>
+			</Decoration>
+			<Decoration>
+				<Type>Barrel</Type>
+				<X>-90</X>
+				<Y>-10</Y>
+				<Z>-50</Z>
+				<Angle>0</Angle>
+			</Decoration>
+	   	</Room>
+		<Room>
+	   		<MinX> -430 </MinX>
+	   		<MinZ> -347 </MinZ>
+	   		<MaxX> 280 </MaxX>
+	   		<MaxZ> 340 </MaxZ>
+	   		<Type> 1 </Type>
+	   		<Trigger>
+	   			<Object>Trigger_Enemies</Object>
+	   			<X> -290 </X>
+	   			<Y> -177 </Y>
+	   			<Width> 170 </Width>
+	   		</Trigger>
+			<Trigger>
+	   			<Object>Trigger_NEnemies</Object>
+	   			<X> 0 </X>
+	   			<Y> -10 </Y>
+	   			<Width> 0 </Width>
+	   			<Value>7</Value>
+	   		</Trigger>
+			<Trigger>
+	   			<Object>Trigger_Camera</Object>
+	   			<X> -430 </X>
+	   			<Y> -320 </Y>
+	   			<Width> 280 </Width>
+	   		</Trigger>
+	   		<Decoration>
+				<Type>Barrel</Type>
+				<X>-220</X>
+				<Y>-10</Y>
+				<Z>-50</Z>
+				<Angle>0</Angle>
+			</Decoration>
+			<Decoration>
+				<Type>Box</Type>
+				<X>-180</X>
+				<Y>-10</Y>
+				<Z>-50</Z>
+				<Angle>0</Angle>
+			</Decoration>
+			<Decoration>
+				<Type>Torch</Type>
+				<X>-370</X>
+				<Y>40</Y>
+				<Z>-40</Z>
+				<Angle>0</Angle>
+			</Decoration>
+	   	</Room>
+		<Room>
+	   		<MinX> -430 </MinX>
+	   		<MinZ> -10 </MinZ>
+	   		<MaxX> 280 </MaxX>
+	   		<MaxZ> 350 </MaxZ>
+	   		<Type> 1 </Type>
+			<Trigger>
+	   			<Object>Trigger_Camera</Object>
+	   			<X> -310 </X>
+	   			<Y> 10 </Y>
+	   			<Width> 110 </Width>
+	   		</Trigger>
+	   		<Decoration>
+				<Type>Column</Type>
+				<X>-365</X>
+				<Y>63</Y>
+				<Z>300</Z>
+				<Angle>0</Angle>
+			</Decoration>
+			<Decoration>
+				<Type>Column</Type>
+				<X>-240</X>
+				<Y>63</Y>
+				<Z>300</Z>
+				<Angle>0</Angle>
+			</Decoration>
+	   	</Room>	
+	   	<Room>
+	   		<MinX> -160 </MinX>
+	   		<MinZ> 14 </MinZ>
+	   		<MaxX> 300 </MaxX>
+	   		<MaxZ> 320 </MaxZ>
+	   		<Type> 1 </Type>
+			<Interactible>
+   				<Object>Chest</Object>	
+   				<X> 7 </X>
+   				<Y> -10 </Y>
+   				<Z> 270 </Z>
+   				<Type> CHEST_LEVEL_KEY_ENTITY </Type>
+				<Value>1</Value>
+	   		</Interactible>
+			<Trigger>
+	   			<Object>Trigger_Camera</Object>
+	   			<X> -160 </X>
+	   			<Y> 25 </Y>
+	   			<Width> 300 </Width>
+	   		</Trigger>
+	   		<Decoration>
+				<Type>Torch</Type>
+				<X>90</X>
+				<Y>40</Y>
+				<Z>310</Z>
+				<Angle>0</Angle>
+			</Decoration>
+			<Decoration>
+				<Type>Torch</Type>
+				<X>-80</X>
+				<Y>40</Y>
+				<Z>310</Z>
+				<Angle>0</Angle>
+			</Decoration>
+	   	</Room>
+	   	<Room>
+	   		<MinX> -410 </MinX>
+	   		<MinZ> 330 </MinZ>
+	   		<MaxX> 250 </MaxX>
+	   		<MaxZ> 200 </MaxZ>
+	   		<Type> 1 </Type>
+			<Trigger>
+	   			<Object>Trigger_Level</Object>
+	   			<X> -410 </X>
+	   			<Y> 350 </Y>
+	   			<Width> 250 </Width>
+	   			<Level> 3 </Level>
+	   		</Trigger>
+	   	</Room>
+	   	<Room>
+	   		<MinX> 2400 </MinX>
+	   		<MinZ> 2400 </MinZ>
+	   		<MaxX> 200 </MaxX>
+	   		<MaxZ> 200 </MaxZ>
+	   		<Type> 1 </Type>
+	   		<Trigger>
+	   			<Object>Trigger_Level</Object>
+	   			<X> 2400 </X>
+	   			<Y> 2400 </Y>
+	   			<Width> 200 </Width>
+	   			<Level> 3 </Level>
+	   		</Trigger>
+	   	</Room>
+		<Door>
+	   		<X>-13</X>
+	   		<Z>-370</Z>
+	   		<Down>1</Down>
+	   		<Closed>1</Closed>
+	   		<Type>NORMAL_DOOR_ENTITY</Type>
+	   		<Index1>2</Index1>
+	   		<Index2>1</Index2>
+	   	</Door>
+	   	<Door>
+	   		<X>-153</X>
+	   		<Z>-211</Z>
+	   		<Down>0</Down>
+	   		<Closed>0</Closed>
+	   		<Type>NORMAL_DOOR_ENTITY</Type>
+	   		<Index1>3</Index1>
+	   		<Index2>2</Index2>
+	   	</Door>
+		<Door>
+	   		<X>-305</X>
+	   		<Z>-22</Z>
+	   		<Down>1</Down>
+	   		<Closed>1</Closed>
+	   		<Type>NORMAL_DOOR_ENTITY</Type>
+	   		<Index1>4</Index1>
+	   		<Index2>3</Index2>
+	   	</Door>
+		<Door>
+	   		<X>-305</X>
+	   		<Z>323</Z>
+	   		<Down>1</Down>
+	   		<Closed>1</Closed>
+	   		<Type>LEVEL_DOOR_ENTITY</Type>
+	   		<Index1>6</Index1>
+	   		<Index2>5</Index2>
+	   	</Door>
+		<Enemy>
+			<X>0</X>
+			<Y>10</Y>
+			<Z>-500</Z>
+			<Type>1</Type>
+		</Enemy>
+		<Enemy>
+			<X>-10</X>
+			<Y>10</Y>
+			<Z>174</Z>
+			<Type>1</Type>
+		</Enemy>
+	</Level2>
+	<Level3>
+		<NRooms>9</NRooms>
+		<NDB>1</NDB>
+		<NP>1</NP>
+		<MediaY>3</MediaY>
+		<Graph>
+			<Node>
+				<X>75</X>
+				<Z>197</Z>
+			</Node>
+			<Node>
+				<X>75</X>
+				<Z>-197</Z>
+			</Node>
+			<Node>
+				<X>450</X>
+				<Z>193</Z>
+			</Node>
+			<Node>
+				<X>450</X>
+				<Z>-197</Z>
+			</Node>
+			<Connection>
+				<C1>0</C1>
+				<C2>1</C2>
+				<P>3</P>
+			</Connection>
+			<Connection>
+				<C1>0</C1>
+				<C2>2</C2>
+				<P>2</P>
+			</Connection>
+			<Connection>
+				<C1>1</C1>
+				<C2>3</C2>
+				<P>1</P>
+			</Connection>
+		</Graph>
+	   	<Room>
+	   		<MinX> -240 </MinX>
+	   		<MinZ> 400 </MinZ>
+	   		<MaxX> 570 </MaxX>
+	   		<MaxZ> 512 </MaxZ>
+	   		<Type> 0 </Type>
+			<Trigger>
+	   			<Object>Trigger_Level</Object>
+	   			<X>45</X>
+	   			<Y>400</Y>
+	   			<Width>100</Width>
+	   			<Level>4</Level>
+	   		</Trigger>
+	   	</Room>
+	   	<Room>
+	   		<MinX> -135 </MinX>
+	   		<MinZ> -5 </MinZ>
+	   		<MaxX> 420 </MaxX>
+	   		<MaxZ> 405 </MaxZ>
+	   		<Type> 1 </Type>
+	   		<Decoration>
+				<Type>Statue1</Type>
+				<X>200</X>
+				<Y>1</Y>
+				<Z>342</Z>
+				<Angle>0</Angle>
+			</Decoration>
+			<Decoration>
+				<Type>Statue2</Type>
+				<X>-47</X>
+				<Y>1</Y>
+				<Z>342</Z>
+				<Angle>0</Angle>
+			</Decoration>
+	   		<Decoration>
+				<Type>Flag</Type>
+				<X>-10</X>
+				<Y>20</Y>
+				<Z>385</Z>
+				<Angle>0</Angle>
+			</Decoration>
+			<Decoration>
+				<Type>Flag</Type>
+				<X>170</X>
+				<Y>20</Y>
+				<Z>385</Z>
+				<Angle>0</Angle>
+			</Decoration>
+	   		<Trigger>
+	   			<Object>Trigger_Camera</Object>
+	   			<X> 75 </X>
+	   			<Y> 45 </Y>
+	   			<Width> 420 </Width>
+	   		</Trigger>
+	   	</Room>
+	   	<Room>
+	   		<MinX> -135 </MinX>
+	   		<MinZ> -390 </MinZ>
+	   		<MaxX> 420 </MaxX>
+	   		<MaxZ> 385 </MaxZ>
+	   		<Type> 1 </Type>
+	   		<Decoration>
+				<Type>Barrel</Type>
+				<X>135</X>
+				<Y>2</Y>
+				<Z>-130</Z>
+				<Angle>0</Angle>
+			</Decoration>
+			<Decoration>
+				<Type>Flag</Type>
+				<X>220</X>
+				<Y>20</Y>
+				<Z>-150</Z>
+				<Angle>0</Angle>
+			</Decoration>
+			<Decoration>
+				<Type>Flag</Type>
+				<X>-10</X>
+				<Y>20</Y>
+				<Z>-20</Z>
+				<Angle>0</Angle>
+			</Decoration>
+	   		<Trigger>
+	   			<Object>Trigger_Camera</Object>
+	   			<X> 75 </X>
+	   			<Y> -340 </Y>
+	   			<Width> 420 </Width>
+	   		</Trigger>
+	   		<Interactible>
+   				<Object>Plate</Object>	
+   				<X> -90 </X>
+   				<Y> 0 </Y>
+   				<Z> -100 </Z>
+   				<Type> PLATE_1_2_INTERACTIBLE </Type>
+				<Value>1</Value>
+	   		</Interactible>
+	   		<Interactible>
+   				<Object>DragBox</Object>	
+   				<X> 0 </X>
+   				<Y> 4 </Y>
+   				<Z> -200 </Z>
+   				<Type>NULL</Type>
+				<Value>1</Value>
+	   		</Interactible>
+	   		<Puzzle>
+	   			<Object>
+	   				<Type>Plate</Type>
+	   				<ID>0</ID>
+	   				<XC> 75 </XC>
+	   				<YC> -2 </YC>
+	   				<ZC>-100</ZC>
+	   			</Object>
+	   			<Object>
+	   				<Type>DragBox</Type>
+	   				<ID>0</ID>
+   					<XC> 75 </XC>
+   					<YC></YC>
+   					<ZC> -100 </ZC>
+	   			</Object>	
+	   		</Puzzle>
+	   	</Room>
+	   	<Room>
+	   		<MinX> -886 </MinX>
+	   		<MinZ> 95 </MinZ>
+	   		<MaxX> 366 </MaxX>
+	   		<MaxZ> 237 </MaxZ>
+	   		<Type> 1 </Type>
+	   		<Decoration>
+				<Type>Column</Type>
+				<X>-861</X>
+				<Y>72</Y>
+				<Z>310</Z>
+				<Angle>0</Angle>
+			</Decoration>
+	   		<Trigger>
+	   			<Object>Trigger_Camera</Object>
+	   			<X> -703 </X>
+	   			<Y> 134 </Y>
+	   			<Width> 366 </Width>
+	   		</Trigger>
+	   		<Interactible>
+   				<Object>Chest</Object>	
+   				<X> -703 </X>
+   				<Y> 3 </Y>
+   				<Z> 310 </Z>
+   				<Type> CHEST_BOSS_KEY_ENTITY </Type>
+				<Value>1</Value>
+	   		</Interactible>
+	   	</Room>
+	   	<Room>
+	   		<MinX> -520 </MinX>
+	   		<MinZ> -5 </MinZ>
+	   		<MaxX> 385 </MaxX>
+	   		<MaxZ> 396 </MaxZ>
+	   		<Type> 2 </Type>
+	   		<Trigger>
+	   			<Object>Trigger_Fall</Object>
+	   			<X> -322 </X>
+	   			<Y> 188 </Y>
+	   			<Width> 198 </Width>
+	   		</Trigger>
+	   		<Trigger>
+	   			<Object>Trigger_Camera</Object>
+	   			<X> -327 </X>
+	   			<Y> 45 </Y>
+	   			<Width> 385 </Width>
+	   		</Trigger>
+	   		<Decoration>
+				<Type>Torch</Type>
+				<X>-343</X>
+				<Y>50</Y>
+				<Z>375</Z>
+				<Angle>0</Angle>
+			</Decoration>
+			<Decoration>
+				<Type>Flag</Type>
+				<X>-263</X>
+				<Y>20</Y>
+				<Z>385</Z>
+				<Angle>0</Angle>
+			</Decoration>
+			<Decoration>
+				<Type>Flag</Type>
+				<X>-423</X>
+				<Y>20</Y>
+				<Z>385</Z>
+				<Angle>0</Angle>
+			</Decoration>
+	   		<Interactible>
+   				<Object>Chest</Object>	
+   				<X> -343 </X>
+   				<Y> 3 </Y>
+   				<Z> 355 </Z>
+   				<Type> CHEST_FOOD_FISH_ENTITY </Type>
+				<Value>4</Value>
+	   		</Interactible>
+	   		<Platform>
+	   			<Object>Platform</Object>
+	   			<X> -350 </X>
+	   			<Y> 0 </Y>
+	   			<Z> 80 </Z>
+	   			<Path>
+	   				<MinX> -455 </MinX>
+	   				<MinZ> 80 </MinZ>
+	   				<MaxX> -230 </MaxX>
+	   				<MaxZ> 300 </MaxZ>
+	   				<Loop> 1 </Loop>
+	   			</Path>
+	   		</Platform>
+	   	</Room>
+	   	<Room>
+	   		<MinX> 285 </MinX>
+	   		<MinZ> -5 </MinZ>
+	   		<MaxX> 331 </MaxX>
+	   		<MaxZ> 396 </MaxZ>
+	   		<Type> 3 </Type>
+	   		<Decoration>
+				<Type>Column</Type>
+				<X>580</X>
+				<Y>72</Y>
+				<Z>346</Z>
+				<Angle>0</Angle>
+			</Decoration>
+	   		<Trigger>
+	   			<Object>Trigger_Enemies</Object>
+	   			<X> 450 </X>
+	   			<Y> 193 </Y>
+	   			<Width> 120 </Width>
+	   		</Trigger>
+	   		<Trigger>
+	   			<Object>Trigger_NEnemies</Object>
+	   			<X> 0 </X>
+	   			<Y> 0 </Y>
+	   			<Width> 0 </Width>
+	   			<Value>0</Value>
+	   		</Trigger>
+	   		<Trigger>
+	   			<Object>Trigger_Camera</Object>
+	   			<X> 450 </X>
+	   			<Y> 45 </Y>
+	   			<Width> 331 </Width>
+	   		</Trigger>
+	   	</Room>
+	   	<Room>
+	   		<MinX> 285 </MinX>
+	   		<MinZ> -390 </MinZ>
+	   		<MaxX> 331 </MaxX>
+	   		<MaxZ> 385 </MaxZ>
+	   		<Type> 1 </Type>
+	   		<Decoration>
+				<Type>Column</Type>
+				<X>580</X>
+				<Y>72</Y>
+				<Z>-50</Z>
+				<Angle>0</Angle>
+			</Decoration>
+	   		<Trigger>
+	   			<Object>Trigger_Camera</Object>
+	   			<X> 450 </X>
+	   			<Y> -340 </Y>
+	   			<Width> 331 </Width>
+	   		</Trigger>
+	   		<Interactible>
+   				<Object>Chest</Object>	
+   				<X> 520 </X>
+   				<Y> 3 </Y>
+   				<Z> -50 </Z>
+   				<Type> CHEST_FOOD_ICE_ENTITY </Type>
+				<Value>2</Value>
+	   		</Interactible>
+	   	</Room>
+	   	<Room>
+	   		<MinX> 617 </MinX>
+	   		<MinZ> -257 </MinZ>
+	   		<MaxX> 62 </MaxX>
+	   		<MaxZ> 57 </MaxZ>
+	   		<Type> 1 </Type>
+	   	</Room>
+	   	<Room>
+	   		<MinX> 2400 </MinX>
+	   		<MinZ> 2400 </MinZ>
+	   		<MaxX> 200 </MaxX>
+	   		<MaxZ> 200 </MaxZ>
+	   		<Type> 1 </Type>
+	   		<Trigger>
+	   			<Object>Trigger_Level</Object>
+	   			<X> 2400 </X>
+	   			<Y> 2400 </Y>
+	   			<Width> 200 </Width>
+	   			<Level> 4 </Level>
+	   		</Trigger>
+	   	</Room>
+	   	<Door>
+	   		<X>75</X>
+	   		<Z>400</Z>
+	   		<Down>1</Down>
+	   		<Closed>1</Closed>
+	   		<Type>BOSS_DOOR_ENTITY</Type>
+	   		<Index1>0</Index1>
+	   		<Index2>1</Index2>
+	   	</Door>
+	   	<Door>
+	   		<X>285</X>
+	   		<Z>195</Z>
+	   		<Down>0</Down>
+	   		<Closed>0</Closed>
+	   		<Type>NORMAL2_DOOR_ENTITY</Type>
+	   		<Index1>1</Index1>
+	   		<Index2>5</Index2>
+	   	</Door>
+	   	<Door>
+	   		<X>85</X>
+	   		<Z>-10</Z>
+	   		<Down>1</Down>
+	   		<Closed>1</Closed>
+	   		<Type>NORMAL2_DOOR_ENTITY</Type>
+	   		<Index1>1</Index1>
+	   		<Index2>2</Index2>
+	   	</Door>
+	   	<Door>
+	   		<X>285</X>
+	   		<Z>-222</Z>
+	   		<Down>0</Down>
+	   		<Closed>0</Closed>
+	   		<Type>NORMAL2_DOOR_ENTITY</Type>
+	   		<Index1>2</Index1>
+	   		<Index2>6</Index2>
+	   	</Door>
+	   	<Door>
+	   		<X>-135</X>
+	   		<Z>195</Z>
+	   		<Down>0</Down>
+	   		<Closed>1</Closed>
+	   		<Type>NORMAL2_DOOR_ENTITY</Type>
+	   		<Index1>4</Index1>
+	   		<Index2>1</Index2>
+	   	</Door>
+	   	<Enemy>
+	   		<X>450</X>
+			<Y>24</Y>
+			<Z>-197</Z>
+			<Type>4</Type>
+	   	</Enemy>
+		<Enemy>
+			<X>50</X>
+			<Y>24</Y>
+			<Z>150</Z>
+			<Type>1</Type>
+		</Enemy>
+		<Enemy>
+			<X>0</X>
+			<Y>24</Y>
+			<Z>150</Z>
+			<Type>1</Type>
+		</Enemy>
+	   	<!--<Enemy>
+	   		<X>-250</X>
+	   		<Y>24</Y>
+	   		<Z>-250</Z>
+	   		<Type>1</Type>
+	   	</Enemy>
+	   	<Enemy>
+	   		<X>-300</X>
+	   		<Y>24</Y>
+	   		<Z>-250</Z>
+	   		<Type>1</Type>
+	   	</Enemy>-->
+	   	<Enemy>
+	   		<X> -703 </X>
+	   		<Y>24</Y>
+	   		<Z> 174 </Z>
+	   		<Type>2</Type>
+	   	</Enemy>
+	</Level3>
+	<Level4>
+		<NRooms>2</NRooms>
+		<NDB>1</NDB>
+		<NP>1</NP>
+		<MediaY>-13</MediaY>
+		<Room>
+	   		<MinX> -150 </MinX>
+	   		<MinZ> -800 </MinZ>
+	   		<MaxX> 282</MaxX>
+	   		<MaxZ> 500 </MaxZ>
+	   		<Type> 1 </Type>
+	   	</Room>
+		<Room>
+	   		<MinX> -150 </MinX>
+	   		<MinZ> -300 </MinZ>
+	   		<MaxX> 282 </MaxX>
+	   		<MaxZ> 550 </MaxZ>
+	   		<Type> 1 </Type>
+	   		<Decoration>
+				<Type>Torch</Type>
+				<X>-110</X>
+				<Y>40</Y>
+				<Z>270</Z>
+				<Angle>0</Angle>
+			</Decoration>
+			<Decoration>
+				<Type>Torch</Type>
+				<X>110</X>
+				<Y>40</Y>
+				<Z>270</Z>
+				<Angle>0</Angle>
+			</Decoration>
+			<Decoration>
+				<Type>Flag</Type>
+				<X>170</X>
+				<Y>20</Y>
+				<Z>-50</Z>
+				<Angle>-90</Angle>
+			</Decoration>
+			<Decoration>
+				<Type>Flag</Type>
+				<X>-170</X>
+				<Y>20</Y>
+				<Z>-50</Z>
+				<Angle>90</Angle>
+			</Decoration>
+			<Decoration>
+				<Type>Flag</Type>
+				<X>170</X>
+				<Y>20</Y>
+				<Z>160</Z>
+				<Angle>-90</Angle>
+			</Decoration>
+			<Decoration>
+				<Type>Flag</Type>
+				<X>-170</X>
+				<Y>20</Y>
+				<Z>160</Z>
+				<Angle>90</Angle>
+			</Decoration>
+			<Decoration>
+				<Type>Throne</Type>
+				<X>0</X>
+				<Y>-10</Y>
+				<Z>250</Z>
+				<Angle>90</Angle>
+			</Decoration>
+			<Decoration>
+				<Type>Painting</Type>
+				<X>0</X>
+				<Y>90</Y>
+				<Z>260</Z>
+				<Angle>90</Angle>
+			</Decoration>
+			<Trigger>
+	   			<Object>Trigger_Dialogo</Object>
+	   			<X> 0 </X>
+	   			<Y> -180 </Y>
+	   			<Width> 145 </Width>
+				<Value> 9 </Value>
+	   		</Trigger>
+	   		<Trigger>
+	   			<Object>Trigger_Door</Object>
+	   			<X> 0 </X>
+	   			<Y> -180 </Y>
+	   			<Width> 145 </Width>
+				<Value> 9 </Value>
+	   		</Trigger>
+	   		<Trigger>
+	   			<Object>Trigger_KPongo</Object>
+	   			<X> 0 </X>
+	   			<Y> -180 </Y>
+	   			<Width> 145 </Width>
+				<Value> 9 </Value>
+	   		</Trigger>
+	   		<Trigger>
+	   			<Object>Trigger_NEnemies</Object>
+	   			<X> 0 </X>
+	   			<Y> 0 </Y>
+	   			<Width> 0 </Width>
+	   			<Value>10</Value>
+	   		</Trigger>
+			<Trigger>
+	   			<Object>Trigger_Camera</Object>
+	   			<X> 0 </X>
+	   			<Y> -220 </Y>
+	   			<Width> 145 </Width>
+	   		</Trigger>
+	   	</Room>
+	   	<Door>
+	   		<X>5</X>
+	   		<Z>-300</Z>
+	   		<Down>1</Down>
+	   		<Closed>0</Closed>
+	   		<Type>NORMAL3_DOOR_ENTITY</Type>
+	   		<Index1>0</Index1>
+	   		<Index2>1</Index2>
+	   	</Door>
+	   	<Enemy>
+	   		<X>0</X>
+	   		<Y>-5</Y>
+	   		<Z>50</Z>
+	   		<Type>3</Type>
+	   	</Enemy>
+	</Level4>
+</Frostyland>
